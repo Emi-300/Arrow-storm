@@ -2,7 +2,7 @@
 execute as @s at @s run tp @s ~ ~ ~ ~10 ~
 
 
-execute as @s at @s anchored eyes run summon spectral_arrow ^ ^-1 ^5 {Tags:["arrow","frozen","timearrow"],NoGravity:1,damage:10}
+execute as @s at @s anchored eyes run summon spectral_arrow ^ ^-1 ^5 {Tags:["arrow","frozen","timearrow"],NoGravity:1,damage:500}
 
 
 # summon the temporary entity at the players position
